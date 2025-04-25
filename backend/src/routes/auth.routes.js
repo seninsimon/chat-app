@@ -15,7 +15,7 @@ router.post("/logout" , logout)
 
 //profile updation
 
-router.post("/update-profile" , protectedRoute , updateProfile)
+router.put("/update-profile" , protectedRoute , updateProfile)
 
 router.get("/check" , protectedRoute , checkAuth)
 
